@@ -1,0 +1,202 @@
+
+topRect {
+    position: absolute;
+width: 1576px;
+height: 266px;
+left: 172px;
+top: 157px;
+
+background: #006494;
+border-radius: 127px;
+}
+
+
+
+/* Thank you for downloading Student ID Filler! */
+topText {
+    position: absolute;
+    width: 1596px;
+    height: 192px;
+    left: 162px;
+    top: 230px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+
+
+
+
+/* The chrome extension for forgetful students :) */
+topSubText {
+
+    position: absolute;
+    width: 1596px;
+    height: 192px;
+    left: 162px;
+    top: 327px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+}
+
+
+/* Rectangle 2 */
+middleRect {
+
+    position: absolute;
+    width: 613px;
+    height: 292px;
+    left: 654px;
+    top: 519px;
+    
+    background: #006494;
+    border-radius: 166px;
+    
+}
+
+
+/* Rectangle 5 */
+botRect {
+    position: absolute;
+    width: 1196px;
+    height: 127px;
+    left: 654px;
+    top: 887px;
+    
+    background: #006494;
+    border-radius: 166px;
+    
+}
+
+
+
+/* Enter ID: */
+
+enterIdText {
+    position: absolute;
+    width: 323px;
+    height: 64px;
+    left: 799px;
+    top: 575px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+}
+
+
+/* Rectangle 3 */
+search {
+
+    position: absolute;
+    width: 285px;
+    height: 36px;
+    left: 818px;
+    top: 639px;
+    
+    background: #FFFFFF;
+    border-radius: 62px;
+}
+
+
+
+/* Rectangle 4 */
+doneButton {
+
+    position: absolute;
+    width: 113px;
+    height: 21px;
+    left: 904px;
+    top: 696px;
+    
+    background: #00DDA8;
+    border-radius: 73px;
+    
+}
+
+
+/* Done */
+doneText {
+
+    position: absolute;
+    width: 58px;
+    height: 10px;
+    left: 931px;
+    top: 694px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+
+
+/* How it works: */
+howText {
+
+
+    position: absolute;
+    width: 359px;
+    height: 93px;
+    left: 162px;
+    top: 921px;
+    
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    
+    color: #006494;
+    
+    
+}
+
+/* SIDF will recognize any google forms that are asking for your student ID and then automatically fill in the field for you. Simple! */
+
+sidfText {
+    position: absolute;
+    width: 1163px;
+    height: 55px;
+    left: 670px;
+    top: 908px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
