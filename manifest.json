@@ -1,7 +1,11 @@
 {
     "manifest_version": 3,
-    "name": "Berkeley Id Filler",
-    "version": "0.1.0",
+    "name": "Student ID Filler",
+    "version": "0.0.0.1",
+    "icons": {
+        "128": "logo.png"
+      },
+    "description": "Student ID Filler will automatically fill in your student ID on all Google Forms. No personal data is collected.",
     "action": {
         "default_popup": "popup.html",
         "default_title": "ENTER ID"
@@ -17,7 +21,7 @@
     },
     "permissions": [
         "storage",
-        "identity",
+        
         "tabs"
       ]
     

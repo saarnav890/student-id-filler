@@ -46,7 +46,24 @@
     font-family: Raleway;
     font-weight: 700;
   }
+  .goodText {
+    color: #ffffff;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Raleway;
+    font-weight: 700;
+  }
+
+  .butText {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Raleway;
+    font-weight: 700;
+  }
+
   .home-rectangle2 {
+    
     width: 25vw;
     height: 20vh;
     display: flex;
@@ -131,7 +148,7 @@
     text-decoration: none;
   }
   .home-rectangle5 {
-    width: 50%;
+    width: 40vw;
     height: 30px;
     display: flex;
     padding: 48px;
