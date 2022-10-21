@@ -45,7 +45,7 @@ const inputID = (element) => {
 
 
 const hasID = (element) => {
-    if( element.innerText.includes('ID') || element.innerText.includes('id')) {
+    if( element.innerText.includes('ID') || element.innerText.includes('id?')) {
         dataParamElem = element.children[0]
         id = getNumber(dataParamElem.getAttribute('data-params'))
         console.log(id)
