@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Student ID Filler",
-    "version": "0.0.0.1",
+    "version": "0.0.0.2",
     "icons": {
         "128": "logo.png"
       },
@@ -20,9 +20,8 @@
         "service_worker": "background.js"
     },
     "permissions": [
-        "storage",
+        "storage"
         
-        "tabs"
       ]
     
 }
