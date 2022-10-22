@@ -1,8 +1,9 @@
 
 document.getElementById("home-text5").addEventListener("click", saveData)
+console.log("Bro are you really inspect elementing the onboarding page? nerd lmao")
 
 function saveData() {
-    console.log(" HERE")
+   // console.log(" HERE")
     chrome.storage.sync.set({id: document.getElementById("ida").value}, function() {
     document.getElementById('rect').remove()
     const header = document.getElementById("home")

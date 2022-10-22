@@ -27,7 +27,7 @@ const getNumber = (str) => {
         }
         
         if (comma == 1){
-            console.log(ans)
+            //console.log(ans)
             return ans
         }
     }
@@ -37,7 +37,7 @@ const getNumber = (str) => {
 
 const inputID = (element) => {
     inputField = element.getElementsByClassName('whsOnd zHQkBf')[0]
-    console.log("INPUTTED", inputField)
+    //console.log("INPUTTED", inputField)
     inputField.value = ID
     
     //if this is null, try catch it, i dont want it to be throwing an error
@@ -48,10 +48,10 @@ const hasID = (element) => {
     if( element.innerText.includes('ID') || element.innerText.includes('id?')) {
         dataParamElem = element.children[0]
         id = getNumber(dataParamElem.getAttribute('data-params'))
-        console.log(id)
+        //console.log(id)
 
-        console.log("TRUE")
-        console.log(element)
+        //console.log("TRUE")
+        //console.log(element)
         inputID(element)
         element.getElementsByClassName('ndJi5d snByac')[0].remove()
         
@@ -72,13 +72,16 @@ form = (document.getElementsByClassName('Uc2NEf'))[0]
 
 
 questions = (document.getElementsByClassName('Qr7Oae'))
-console.log(questions)
+//console.log(questions)
 
 
+setTimeout(function(){
+    chrome.storage.sync.get(['id'], function(result) {
+        ID = result.id
+        Array.from(questions).forEach( (e) => {
+            hasID(e)
+        })
+      });
+}, 500);
 
-chrome.storage.sync.get(['id'], function(result) {
-    ID = result.id
-    Array.from(questions).forEach( (e) => {
-        hasID(e)
-    })
-  });
+

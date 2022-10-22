@@ -3,7 +3,16 @@
     opacity: 0.5;
     margin: 10px; /* Firefox */
   }
-
+.localText{
+  font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 12;
+    color: white;
+    margin-bottom: 10px;
+}
 .home-container {
     width: 100%;
     display: flex;
@@ -35,7 +44,7 @@
     position: relative;
     align-items: center;
     border-color: transparent;
-    border-radius: 127px;
+    border-radius: 10px;
     justify-content: center;
     background-color: #0081bd;
   }
@@ -65,13 +74,13 @@
   .home-rectangle2 {
     
     width: 25vw;
-    height: 20vh;
+    height: 25vh;
     display: flex;
     position: relative;
     margin-top: 80px;
     align-items: center;
     border-color: transparent;
-    border-radius: 166px;
+    border-radius: 10px;
     flex-direction: column;
     justify-content: center;
     background-color: #006494;
@@ -99,7 +108,7 @@
     font-family: Raleway;
     font-weight: 700;
     border-width: 0px;
-    border-radius: 45px;
+    border-radius: 10px;
 
     
   }
@@ -111,7 +120,7 @@
     margin-top: 16px;
     align-items: center;
     border-color: transparent;
-    border-radius: 73px;
+    border-radius: 10px;
     justify-content: center;
     background-color: #002f45;
   }
@@ -155,7 +164,7 @@
     position: relative;
     align-items: center;
     border-color: transparent;
-    border-radius: 166px;
+    border-radius: 10px;
     justify-content: center;
     background-color: #0081bd;
   }

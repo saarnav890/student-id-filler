@@ -4,7 +4,7 @@
         document.getElementById("submitButton").addEventListener("click", saveData)
 
         function saveData() {
-            console.log(" HERE")
+            //console.log(" HERE")
             chrome.storage.sync.set({id: document.getElementById("textInput").value}, function() {
             document.getElementById('submitButton').remove()
             document.getElementById('textInput').remove()
