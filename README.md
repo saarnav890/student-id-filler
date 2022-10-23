@@ -18,6 +18,11 @@ This extension allows you to never have to worry about remembering your student 
 3. Profit
 
 
+## Features
+
+- Autofills whenever there is a field matching 'ID' or 'id' in the Google Form question
+- You can update your student ID at any time by simply clicking on the extension and entering the new ID
+
 
 ## FAQ
 
@@ -34,10 +39,7 @@ Your ID is only being stored in chrome's sync storage, meaning that it  is not b
 
 - Because, my friend, I am a developer, not a designer. If you are willing to contribute to the design, I will happily accept your help :)
 
-## Features
 
-- Autofills whenever there is a field matching 'ID' or 'id' in the Google Form question
-- You can update your student ID at any time by simply clicking on the extension and entering the new ID
 
 
 
