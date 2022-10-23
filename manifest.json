@@ -1,27 +1,23 @@
 {
-    "manifest_version": 3,
-    "name": "Student ID Filler",
-    "version": "0.0.0.4",
-    "icons": {
-        "128": "logo.png"
-      },
-    "description": "Student ID Filler will automatically fill in your student ID on all Google Forms. No personal data is collected.",
-    "action": {
-        "default_popup": "popup.html",
-        "default_title": "ENTER ID"
-    },
-    "content_scripts": [
-        {
-            "matches": ["https://docs.google.com/forms/*"],
-            "js": ["script.js"]
-        }
-    ],
-    "background": {
-        "service_worker": "background.js"
-    },
-    "permissions": [
-        "storage"
-        
-      ]
-    
+  "manifest_version": 3,
+  "name": "Student ID Filler",
+  "version": "0.0.0.4",
+  "icons": {
+    "128": "logo.png"
+  },
+  "description": "Student ID Filler will automatically fill in your student ID on all Google Forms. No personal data is collected.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ENTER ID"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/forms/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"]
 }

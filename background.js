@@ -1,9 +1,6 @@
+//When the extension is installed, create the onboarding.html page
 chrome.runtime.onInstalled.addListener((reason) => {
-    
-        console.log(reason)
-        console.log("INSTALLED FOR FIRST TIME")
-      chrome.tabs.create({
-        url: 'onboarding.html'
-      });
-    
-  })
+  chrome.tabs.create({
+    url: "onboarding.html",
+  });
+});
