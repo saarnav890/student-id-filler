@@ -41,7 +41,9 @@ Your ID is only being stored in chrome's sync storage, meaning that it  is not b
 
 
 
+#Acknowledgments
 
+- Subhon Ghosh for making the ID appear when clicking on the extension
 
 
 
